@@ -10,7 +10,7 @@
     "typings": "./dist/index.d.ts",
     "scripts": {
         "build": "tsc",
-        "prepack": "tsc"
+        "prepare": "tsc"
     },
   "devDependencies": {
     "typescript": "^5.4.2"
