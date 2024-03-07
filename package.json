@@ -1,0 +1,18 @@
+{
+    "name": "http-methods-ts",
+    "version": "0.1.0",
+    "private": true,
+    "author": {
+        "name": "Vidar André Bø"
+    },
+    "type": "module",
+    "main": "./dist/index.js",
+    "typings": "./dist/index.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "prepack": "tsc"
+    },
+  "devDependencies": {
+    "typescript": "^5.4.2"
+  }
+}
