@@ -1,6 +1,6 @@
 {
     "name": "http-methods-ts",
-    "version": "0.2.0",
+    "version": "1.0.0",
     "private": true,
     "author": {
         "name": "Vidar André Bø"
@@ -11,7 +11,10 @@
         "prepare": "tsc"
     },
     "exports": {
-        ".": "./index.ts"
+        ".": [
+            "./HttpRequest.ts",
+            "./HttpResponse.ts"
+        ]
     },
     "devDependencies": {
         "typescript": "^5.4.2"

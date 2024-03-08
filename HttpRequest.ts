@@ -1,13 +1,4 @@
-export class HttpResponse {
-    body: object | null;
-    status: number;
-
-    constructor(body: object | null, status: number) {
-        this.body = body;
-        this.status = status;
-    }
-}
-
+import { HttpResponse } from "./HttpResponse"
 export class HttpRequest {
     route: string | null;
     method: "GET" | "POST" | "DELETE" | "PUT" | undefined;
