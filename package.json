@@ -6,11 +6,12 @@
         "name": "Vidar André Bø"
     },
     "type": "module",
-    "main": "./dist/index.js",
-    "typings": "./dist/index.d.ts",
     "scripts": {
         "build": "tsc",
         "prepare": "tsc"
+    },
+    "exports": {
+        ".": "./httpRequest.ts"
     },
   "devDependencies": {
     "typescript": "^5.4.2"
