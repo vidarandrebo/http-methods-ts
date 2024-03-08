@@ -11,7 +11,7 @@
         "prepare": "tsc"
     },
     "exports": {
-        ".": "./httpRequest.ts"
+        ".": "./index.ts"
     },
   "devDependencies": {
     "typescript": "^5.4.2"
